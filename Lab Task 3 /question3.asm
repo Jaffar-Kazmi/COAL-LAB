@@ -6,7 +6,7 @@
 .code
       main proc 
         mov cx, 26
-        mov dx, 65
+        mov dx, 97
         
       again:        
         mov ah, 2

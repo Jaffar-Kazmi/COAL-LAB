@@ -1,3 +1,5 @@
+; Write assembly program to reverse the string using stack
+
 .model small
 .stack 100h
 .data

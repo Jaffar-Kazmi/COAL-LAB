@@ -1,3 +1,5 @@
+;  code to check if the number is even or odd
+
 .model small
 .stack 100h
 .data       

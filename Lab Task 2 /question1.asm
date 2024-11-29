@@ -1,25 +1,21 @@
+; 3+5-2-1
+
 .model small   
 .stack 100h
-.data  
-       num1 db 1
-       num2 db 2
-       num3 db 3
+.data
        
 .code
      main proc  
         
-        mov ax, @data
-        mov ds, ax
+        mov al, 3 
         
-        mov al, num1 
-        mov bl, num2
-        mov cl, num3
+        add al, 5 
         
-        add al, bl
+        sub al, 2
         
-        add al, cl
-         
-        add al, 48 
+        sub al, 1
+        
+        add al, 48
         
         mov dl, al
         mov ah, 2

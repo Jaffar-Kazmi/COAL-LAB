@@ -1,3 +1,5 @@
+; Write assembly code to add three numbers using stack
+
 .model small
 .stack 100h
 .data

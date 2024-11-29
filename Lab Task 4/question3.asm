@@ -1,3 +1,7 @@
+; Initialize an array of characters from a to h. Then use conditional statement to find the
+; character in array. If it exists display message the character is found else the character is
+; not found.
+
 .model small
 .stack 100h
 .data

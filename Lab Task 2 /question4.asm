@@ -1,3 +1,5 @@
+;Bonus question: convert and display binary of 5 on screen
+
 .model small
 .stack 100h
 .data

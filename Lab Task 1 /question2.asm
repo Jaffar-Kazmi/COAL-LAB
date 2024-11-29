@@ -1,3 +1,5 @@
+; Multiply two numbers
+
 .model small   
 .stack 100h
 .data

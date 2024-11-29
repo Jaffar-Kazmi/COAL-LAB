@@ -15,7 +15,7 @@ again:
     INT 21H             ; DOS interrupt to take input
     MOV array[SI], AL   ; Store the input in array
     INC SI              ; Increment index
-    LOOP again     ; Repeat until CX=0
+    LOOP again          ; Repeat until CX=0
 
     MOV AH, 4CH         ; Exit
     INT 21H

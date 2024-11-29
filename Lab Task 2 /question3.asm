@@ -1,3 +1,5 @@
+; code to find the average of 3,4,5,3,5
+
 .model small   
 .stack 100h
 .data         
@@ -8,8 +10,6 @@
         
         ;Initialize data segment
         mov ax, @data
-        mov ds, ax  
-        
         ;load 3 in al      
         mov ax, 3          
         

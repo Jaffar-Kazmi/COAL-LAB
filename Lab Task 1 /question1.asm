@@ -1,5 +1,7 @@
-.model small   
-.stack 100h
+; Program to swap two numbers   
+
+.model small      ;code and data segments are limited to 64 KB each
+.stack 100h       ;stack of size 256 bytes
 .data
       num1 dw '5' ;first number, dw = define word(16 bits)
       num2 dw '6' ;second number 

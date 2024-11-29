@@ -1,3 +1,6 @@
+; 1234
+; 5678
+
 .model small
 .stack 100h
 .data
